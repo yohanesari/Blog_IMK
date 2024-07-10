@@ -1,0 +1,29 @@
+.dashboard-card {
+  background-image: url('/image/categori.png'); /* Ganti 'path/to/your/image.jpg' dengan path gambar Anda */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+  .dashboard-card h1, .dashboard-card h3{
+/* background:  url('/image/tes.png');
+background-clip: text;
+-webkit-background-clip: text; */
+color: white;
+} 
+.card-cat{
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  padding: 0;
+  gap: 10%;
+}
+.img-dash img{
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+}
+h4{
+  max-width: 100px;
+  border-bottom: 3px solid #EEA521;
+  
+}
